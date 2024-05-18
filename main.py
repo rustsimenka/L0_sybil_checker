@@ -8,4 +8,4 @@ with open('my_wallets.txt', 'r') as my_wallets, open('initialList.txt', 'r') as 
             print(line, file=my_bad_wallets)
             x =+ 1
     if x == 0:
-        print('Я всё проверил, Ваших кошельков нет в списке сибилов', file=my_bad_wallets)
+        print("Я всё проверил, Ваших кошельков нет в списке сибилов", file=my_bad_wallets)
