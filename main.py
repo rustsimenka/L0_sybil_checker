@@ -8,7 +8,6 @@ with open('my_wallets.txt', 'r') as my_wallets, \
         if len(row) > 2:
             set_sibyls.add(row[2])
 
-
     count_bad_wallets = 0
 
     for line in my_wallets:
